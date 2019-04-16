@@ -60,7 +60,7 @@ end
 
 describe "retrieve_last_element_from_array" do 
   it "takes in an argument of an array and returns the last element of that array" do 
-    array = ["wow", "I", "am", "really", "learning", "arrays!"]
+   array = ["wow", "I", "am", "really", "learning", "arrays!"]
     expect(retrieve_last_element_from_array(array)).to eq("arrays!")
   end
 end
